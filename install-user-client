@@ -3,6 +3,6 @@
 # Distributed under the Boost Software License, Version 1.0.
 # See accompanying file LICENSE_1_0.txt or copy at
 #  http://www.boost.org/LICENSE_1_0.txt
-mkdir -p ~/.local/bin
-cp -u "$(dirname ${0})/clang-tidy" ~/.local/bin
-cp -u "$(dirname ${0})/clang-tidy-cache" ~/.local/bin
+
+cp -u ctcache/clang-tidy /usr/local/bin/clang-tidy-16
+cp -u ctcache/clang-tidy-cache /usr/local/bin/
