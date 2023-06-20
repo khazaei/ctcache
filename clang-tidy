@@ -3,4 +3,5 @@
 #  clang-tidy cache wrapper script
 #
 
-/usr/local/bin/clang-tidy-cache "${CTCACHE_CLANG_TIDY}" "${CTCACHE_CLANG_TIDY_OPTS[@]}" "${@}"
+CTCACHE_CLANG_TIDY=clang-tidy-16
+/usr/local/bin/clang-tidy-cache "${CTCACHE_CLANG_TIDY}" "${@}"
